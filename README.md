@@ -1,6 +1,6 @@
 Quick summary A compact, reproducible analysis of house prices including data cleaning, exploratory analysis, predictive modeling, and a Shiny dashboard for interactive exploration.
 
-Highlights
+# Highlights
 
 Cleaned and engineered features from a large real-estate dataset.
 
@@ -12,7 +12,7 @@ Interactive Shiny dashboard for KPI inspection and filtering.
 
 Tech & tools R, tidyverse, ggplot2, ranger, Quarto, Shiny
 
-Quick start
+# Quick start
 
 Clone repo and place the dataset in data/.
 
