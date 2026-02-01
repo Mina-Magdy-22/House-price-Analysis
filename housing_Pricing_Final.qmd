@@ -37,7 +37,8 @@ conflicted::conflicts_prefer(dplyr::filter)
 Load House Pricing Data set
 
 ```{r}
-df <- read.csv("D:/Business Technology/Level 3/Semester 1/Statistical Computing/Project/Raw Data/house_prices/house_prices.csv",stringsAsFactors = FALSE)
+df <- read.csv("/kaggle/input/house-price/house_prices.csv",
+               stringsAsFactors = FALSE)
 ```
 
 Display the structure of the data frame:\
@@ -1053,3 +1054,4 @@ One-way ANOVA shows no statistically significant difference in mean simulated pr
 sim_data <- lm(simulated_df$price_imp ~ simulated_df$furnishing)
 anova(sim_data)
 ```
+
